@@ -54,7 +54,7 @@ Baseline DRL models over-prioritized immediate high premiums, leading to a "Deat
 
 <div align="center">
   <img src="assets/Graph-Bandit.png" width="45%" alt="Baseline Agent - Reputation Collapse">
-  <img src="assets/Final-Graph.png" width="45%" alt="Optimized Agent - Sustainable Profit">
+  <img src="assets/Optimized Agent - Sustainable Profit.png" width="45%" alt="Optimized Agent - Sustainable Profit">
 </div>
 *Left: Unstable baseline model causing reputation collapse. Right: Optimized DQN agent achieving sustainable cumulative profit while maintaining market reputation.*
 
