@@ -53,8 +53,8 @@ The DeepSurv model successfully captured non-linear covariate interactions and c
 Baseline DRL models over-prioritized immediate high premiums, leading to a "Death Spiral" where the company's reputation collapsed to zero. By implementing a **Target Network** and shaping the environment's reward function, the final DQN agent successfully balanced short-term gains with long-term brand sustainability.
 
 <div align="center">
-  <img src="assets/Graph-Bandit.jpg" width="45%" alt="Baseline Agent - Reputation Collapse">
-  <img src="assets/Final-Graph.jpg" width="45%" alt="Optimized Agent - Sustainable Profit">
+  <img src="assets/Graph-Bandit.png" width="45%" alt="Baseline Agent - Reputation Collapse">
+  <img src="assets/Final-Graph.png" width="45%" alt="Optimized Agent - Sustainable Profit">
 </div>
 *Left: Unstable baseline model causing reputation collapse. Right: Optimized DQN agent achieving sustainable cumulative profit while maintaining market reputation.*
 
