@@ -84,7 +84,7 @@ pip install -r requirements.txt
 Running the Pipeline
 Execute the modules sequentially from the root directory:
 
-Clean Data: python src/preprocessing/DataCleaningEngine.py
-Extract Risk Scores: python src/models/RiskModelingModule.py
-Impute Charges: python src/preprocessing/ChargeImputing.py
-Train DRL Agent: python src/rl_agent/DRLPricingAgent.py
+* **Clean Data: python src/preprocessing/DataCleaningEngine.py
+* **Extract Risk Scores: python src/models/RiskModelingModule.py
+* **Impute Charges: python src/preprocessing/ChargeImputing.py
+* **Train DRL Agent: python src/rl_agent/DRLPricingAgent.py
