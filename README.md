@@ -41,12 +41,12 @@ The DeepSurv model successfully captured non-linear covariate interactions and c
 
 <div align="center">
   <img src="assets/DeepSurv Model Eğitim Süreci.png" width="45%" alt="DeepSurv Training Loss">
-  <img src="assets/Gerçek Yaşam Süresi ve Risk Skoru İlişkisi.png" width="45%" alt="Risk Score vs Survival Time">
+  <img src="assets/Risk Score vs Survival Time.png" width="45%" alt="Risk Score vs Survival Time">
 </div>
 
 * **Feature Importance:** The model successfully discriminated between risk factors (e.g., specific comorbidities) and protective factors, aligning with clinical expectations.
 <div align="center">
-  <img src="assets/Hangi Özellikler Riski Artırıyor? (Feature Importance).png" width="70%" alt="Feature Importance">
+  <img src="assets/Feature Importance.png" width="70%" alt="Feature Importance">
 </div>
 
 ### Stage 2: Overcoming "Reputation Bankruptcy" with DQN
