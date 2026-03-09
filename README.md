@@ -83,8 +83,8 @@ To set up the project environment on your local machine, follow these steps:
    git clone [https://github.com/AykutErenSahin/A-Deep-Reinforcement-Learning-Approach-to-Risk-Based-Dynamic-Insurance-Pricing.git](https://github.com/AykutErenSahin/A-Deep-Reinforcement-Learning-Approach-to-Risk-Based-Dynamic-Insurance-Pricing.git)
    cd A-Deep-Reinforcement-Learning-Approach-to-Risk-Based-Dynamic-Insurance-Pricing
    ```
-2. **Create a virtual environment:**
-   
+2. **Create a virtual environment:** 
+    
    **On macOS/Linux:**
    ```bash
    python3 -m venv venv
