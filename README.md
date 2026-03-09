@@ -1,11 +1,11 @@
 # AI-Driven Dynamic Insurance Pricing System: Survival Analysis & Deep Reinforcement Learning
 
-## 📌 Overview
+## Overview
 Traditional insurance pricing heavily relies on static, population-based actuarial tables, which fail to capture the complex, non-linear variability in individual health profiles and ignore the long-term impact of pricing on customer churn. 
 
 This project introduces an end-to-end Artificial Intelligence framework to solve this problem. It bridges the gap between predictive clinical risk estimation and dynamic financial optimization by combining **Deep Survival Analysis (DeepSurv)** with a **Deep Reinforcement Learning (DQN)** agent. The agent dynamically adjusts premium multipliers to maximize cumulative profit while actively managing company reputation and customer retention.
 
-## ⚙️ System Architecture & Data Flow
+## System Architecture & Data Flow
 
 The architecture is designed as a sequential pipeline where clinical risk quantification is strictly decoupled from the stochastic optimization of the economic pricing policy.
 
@@ -24,7 +24,7 @@ The architecture is designed as a sequential pipeline where clinical risk quanti
 * **Environment (`InsuranceEnv`):** A custom OpenAI Gym simulation modeling stochastic customer purchasing behavior and claim occurrences.
 * **Agent (`DQNAgent`):** Utilizes an augmented state vector (Patient Context + Risk Score + Base Charge + Dynamic Reputation) to output discrete premium multipliers (`0.8x, 1.0x, 1.2x, 1.5x`).
 
-## 🧱 Object-Oriented Software Design
+## Object-Oriented Software Design
 
 The codebase adheres to Object-Oriented Programming (OOP) principles, separating data preprocessing, risk modeling, and simulation environments into distinct, maintainable classes.
 
@@ -34,7 +34,7 @@ The codebase adheres to Object-Oriented Programming (OOP) principles, separating
 
 ---
 
-## 📊 Key Results & Visualizations
+## Key Results & Visualizations
 
 ### Stage 1: Survival Analysis Performance
 The DeepSurv model successfully captured non-linear covariate interactions and converged smoothly, achieving a highly accurate **Concordance Index (C-Index) of 0.9815** on the test set.
@@ -60,13 +60,13 @@ Baseline DRL models over-prioritized immediate high premiums, leading to a "Deat
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 * **Language:** Python 3.8+
 * **Deep Learning:** PyTorch (Neural Networks, Tensor computations, AutoGrad)
 * **RL Environment:** OpenAI Gym
 * **Data Processing & Analytics:** Pandas, NumPy, Scikit-learn, Statsmodels
 
-## 🚀 Execution Pipeline & How to Run
+## Execution Pipeline & How to Run
 
 The system executes in a linear pipeline, processing raw clinical records into a trained dynamic pricing policy.
 
