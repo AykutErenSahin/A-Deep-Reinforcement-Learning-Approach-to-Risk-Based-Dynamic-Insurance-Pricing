@@ -74,12 +74,32 @@ The system executes in a linear pipeline, processing raw clinical records into a
   <img src="assets/Execution Sequence Diagram.png" width="90%" alt="Execution Sequence Diagram">
 </div>
 
-### Installation
-```bash
-git clone [https://github.com/yourusername/AI-Dynamic-Insurance-Pricing.git](https://github.com/yourusername/AI-Dynamic-Insurance-Pricing.git)
-cd AI-Dynamic-Insurance-Pricing
-pip install -r requirements.txt
-```
+## Installation
+
+To set up the project environment on your local machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/AykutErenSahin/A-Deep-Reinforcement-Learning-Approach-to-Risk-Based-Dynamic-Insurance-Pricing.git](https://github.com/AykutErenSahin/A-Deep-Reinforcement-Learning-Approach-to-Risk-Based-Dynamic-Insurance-Pricing.git)
+   cd A-Deep-Reinforcement-Learning-Approach-to-Risk-Based-Dynamic-Insurance-Pricing
+   ```
+2. **Create a virtual environment (Recommended):**
+   **On macOS/Linux:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+   **On Windows:**
+   ```bash
+   python -m venv venv
+   .\venv\Scripts\activate
+   ```
+3. **Install the required dependencies:**
+   ```bash
+   pip install --upgrade pip
+   pip install -r requirements.txt
+   ```
 
 Running the Pipeline
 Execute the modules sequentially from the root directory:
